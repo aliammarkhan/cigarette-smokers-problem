@@ -20,5 +20,4 @@ locates resources, and the smokers represent applications that need resources.
 The problem is to make sure that if resources are available that would allow
 one more more applications to proceed, those applications should be woken up.
 Conversely, we want to avoid waking an application if it cannot proceed.
-Based on this premise, there are three versions of this problem that often
-appear in textbooks:
+
